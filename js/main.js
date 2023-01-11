@@ -69,6 +69,8 @@ const createBarChart = (data, colors) => {
   
   
   function mouseover() {
+
+    console.log(d3);
     // 2.2 Get the geo and color of the selected bar
     const geo = d3.select(this).attr("class")
     const color = d3.select(this).attr("fill")
